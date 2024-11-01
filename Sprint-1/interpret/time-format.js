@@ -28,6 +28,8 @@ console.log(result);
 // b) one function call - console.log()
 
 // c) it divides movielength by 60 which will separate the seconds which is not enough to be one minute
+// we divided movielength by 60, every 60 will be a minute, the remainder is the the seconds not enough to be a minute. 
+// for example 2:43:4  the 4 is teh remainder seconds
 
 // d) it removes remaining seconds which is not enough to be a minute and then divide the seconds to 60 to make total mitutes
 
