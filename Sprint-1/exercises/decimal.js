@@ -5,7 +5,7 @@ let decimalPart = num - Math.trunc(num) ;
 let roundedNum = Math.round(num) ;
 
 console.log(wholeNumberPart)
-console.log(decimalPart)
+console.log(decimalPart.toFixed(4))
 console.log(roundedNum)
 
 // You should look up Math functions for this exercise https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
