@@ -12,7 +12,7 @@ Try also entering `typeof console`
 
 Answer the following questions:
 
-What does `console` store? Answer: console is not designed to store any data. it output with messages , error and other useful data
+What does `console` store?- object -  Answer: console is not designed to store any data. it output with messages , error and other useful data
 
 What does the syntax `console.log` or `console.assert` mean? In particular, what does the `.` mean?
 console.log : to output messages,errors and variebles
