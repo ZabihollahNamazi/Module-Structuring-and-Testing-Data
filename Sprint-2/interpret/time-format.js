@@ -2,6 +2,7 @@ function pad(num) {
   return num.toString().padStart(2, "0");
 }
 
+
 function formatTimeDisplay(seconds) {
   const remainingSeconds = seconds % 60;
   const totalMinutes = (seconds - remainingSeconds) / 60;
@@ -13,10 +14,10 @@ function formatTimeDisplay(seconds) {
   )}`;
 }
 
-// You will need to play computer with this example - use the Python Visualiser https://pythontutor.com/visualize.html#mode=edit
+// You will need to play computer with this example use the Python Visualiser https://pythontutor.com/visualize.html#mode=edit
 // to help you answer these questions
 
-// Questions
+// Questions 
 
 // a) When formatTimeDisplay is called how many times will pad be called?
 
