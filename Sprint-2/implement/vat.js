@@ -8,3 +8,10 @@
 // Given a number,
 // When I call this function with a number
 // it returns the new price with VAT added on
+
+function price_with_VAT(price){
+    let after_vat = price * 1.2;
+    return `Price with VAT £${after_vat}`;
+}
+
+console.log(price_with_VAT(60));
