@@ -14,8 +14,8 @@
 // Then when we call this function with the weight and height
 // It should return their Body Mass Index to 1 decimal place
 
-function bmi(weight, height){
-    let bmi = weight / (height * height);
+function bmi(weight_in_kg, height_in_m){
+    let bmi = weight_in_kg / (height_in_m * height_in_m);
     bmi = bmi.toFixed(1);
     return bmi;
 } 
