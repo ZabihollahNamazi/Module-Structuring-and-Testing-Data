@@ -22,11 +22,14 @@ function low_to_cap(txt){
         if (txt[i] == " "){
             up_word += "_"
         }
-        for (let j = 0; j < lows.length; j++){
-            if (txt[i] == lows[j]){
-               up_word += caps[j]; 
-            }
+        else{
+            up_word += txt[i].toUpperCase();
         }
+        // for (let j = 0; j < lows.length; j++){
+        //     if (txt[i] == lows[j]){
+        //        up_word += caps[j]; 
+        //     }
+        // }
     } return up_word;
 }
 
