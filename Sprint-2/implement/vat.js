@@ -9,8 +9,8 @@
 // When I call this function with a number
 // it returns the new price with VAT added on
 
-function price_with_VAT(price){
-    let after_vat = price * 1.2;
+function price_with_VAT(pound){
+    let after_vat = pound * 1.2;
     return `Price with VAT £${after_vat}`;
 }
 
