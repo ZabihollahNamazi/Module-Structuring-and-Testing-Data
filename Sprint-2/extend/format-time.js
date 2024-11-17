@@ -3,15 +3,17 @@
 
 function formatAs12HourClock(time) {
   const hours = Number(time.slice(0, 2));
+  let minutes = Number(time.slice(3, 5));
+  if (minutes == 0){minutes = "00"}
   if (hours > 12) {
     let x = `${hours - 12}`.padStart(2,"0");
-    return x+`:00 pm`;
+    return x+`:${minutes} pm`;
   }
   return `${time} am`;
 }
 
-const currentOutput = formatAs12HourClock("20:00");
-const targetOutput = "08:00 pm";
+const currentOutput = formatAs12HourClock("20:23");
+const targetOutput = "08:23 pm";
 console.assert(
   currentOutput === targetOutput,
   `current output: ${currentOutput}, target output: ${targetOutput}`
